@@ -1,0 +1,38 @@
+.button-yellow {
+  margin-top: 10px;
+  padding: 12px 24px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #efd372;
+  border-radius: 16px;
+  background-color: #efd372;
+  transition: all 200ms ease;
+  font-family: Roboto, sans-serif;
+  color: #274c5b;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: capitalize;
+  &:hover {
+    background-color: #f9f8f8;
+    color: #274c5b;
+  }
+}
+.button-blue {
+  margin-top: 10px;
+  padding: 12px 24px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #274c5b;
+  border-radius: 16px;
+  background-color: #274c5b;
+  transition: all 200ms ease;
+  font-family: Roboto, sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: capitalize;
+  &:hover {
+    background-color: #f9f8f8;
+    color: #274c5b;
+  }
+}
