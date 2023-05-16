@@ -24,7 +24,13 @@ const Products = () => {
       </div>
       <div className="grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 lg:px-[100px]  xl:grid-cols-4 xl:px-[100px] gap-[40px] ">
         {filteredProducts.map((eachProduct) => {
-          return <Product key={eachProduct.id} product={eachProduct} />;
+          return (
+            <Product
+              key={eachProduct.id}
+              product={eachProduct}
+              // style="bg-white-10"
+            />
+          );
         })}
       </div>
       <div className="mt-20 flex items-center justify-center">

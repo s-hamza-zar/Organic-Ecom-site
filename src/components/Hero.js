@@ -3,7 +3,7 @@ import Button from "./Button";
 
 const Hero = () => {
   return (
-    <section className="bg-hero h-[800px] my-8">
+    <section className="bg-hero bg-cover bg-no-repeat h-[800px] my-8">
       <div className="py-64">
         <div className="mx-60 ">
           <p className="font-yellowtail text-green text-2xl font-normal uppercase italic">

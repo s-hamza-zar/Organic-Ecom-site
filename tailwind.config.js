@@ -2,7 +2,7 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     fontFamily: {
-      primary: "Poppins",
+      primary: ["Roboto", "sans-serif"],
       roboto: ["Roboto", "sans-serif"],
       yellowtail: ["Yellowtail"],
     },
@@ -36,6 +36,11 @@ module.exports = {
         "offer-two": "url('./img/offer-bnr-two.svg')",
         aboutUs: "url('./img/aboutUs-image.png')",
         testimonial: "url('./img/testomonial-bg.png')",
+        whoWeAre: "url('./img/whoWeAre-bg.png')",
+        "gallery-one": "url('./img/gallery-bg-1.png')",
+        "gallery-two": "url('./img/gallery-bg-2.png')",
+        "gallery-three": "url('./img/gallery-bg-3.png')",
+        newsLetter: "url('./img/newsletter-bg.png')",
       },
     },
   },

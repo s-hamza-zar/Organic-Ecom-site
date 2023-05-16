@@ -10,6 +10,7 @@ const Button = ({ type, children }) => {
     >
       <div className="flex items-center justify-between">
         {children}
+
         <FontAwesomeIcon icon={faCircleArrowRight} className="ml-4 " />
       </div>
     </button>

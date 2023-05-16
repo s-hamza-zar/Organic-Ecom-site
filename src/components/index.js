@@ -8,6 +8,11 @@ import Products from "./Products";
 import AboutUs from "./AboutUs";
 import OfferBanner from "./OfferBanner";
 import Testimonial from "./Testimonial";
+import OfferProducts from "./OfferProducts";
+import MoreDetails from "./MoreDetails";
+import Gallery from "./Gallery";
+import Newsletter from "./Newsletter";
+
 export {
   Header,
   Footer,
@@ -19,4 +24,8 @@ export {
   AboutUs,
   OfferBanner,
   Testimonial,
+  OfferProducts,
+  MoreDetails,
+  Gallery,
+  Newsletter,
 };

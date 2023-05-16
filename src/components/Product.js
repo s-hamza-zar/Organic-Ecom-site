@@ -3,7 +3,7 @@ import { BsEyeFill, BsPlus } from "react-icons/bs";
 import { Link } from "react-router-dom";
 import { CartContext } from "../contexts/CartContext";
 import ReactStars from "react-rating-stars-component";
-const Product = ({ product }) => {
+const Product = ({ product, style }) => {
   const { addToCart } = useContext(CartContext);
   const { id, image, category, title, price } = product;
   const firstExample = {
@@ -13,7 +13,9 @@ const Product = ({ product }) => {
   };
   return (
     <section>
-      <div className="bg-white-10 rounded-[30px] h-[400px] mb-4 relative overflow-hidden group transition">
+      <div
+        className={`bg-white-10 rounded-[30px] h-[400px] mb-4 relative overflow-hidden group transition ${style}`}
+      >
         <div className="w-full h-full flex justify-center items-center">
           <div className="w-[200px] mx-auto flex justify-center items-center">
             <img
